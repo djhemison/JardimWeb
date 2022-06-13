@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 70%;
+    margin: auto;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    background: rgb(15, 15, 15);
+
+    background-image: url(../img/night-photograph.jpg);
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: 1980px;
+    background-attachment: fixed;
+    min-height: 8px;
+}
+
+body a {
+    text-decoration: none;
+    color: rgb(95, 71, 233);
+    transition: 00.5s ease;
+}
+
+body a:hover {
+    color: rgb(61, 30, 236);
+}
+
+.page-wrapper {
+    margin-bottom: 50px;
+}
+
+.page-wrapper>.main {
+    margin: 30px;
+    padding: 15px 15px 0px 15px;
+    max-width: 70%;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 15px;
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, 0.781);
+}
+
+.page-wrapper h3 {
+    margin: 20px;
+    font-size: 48px;
+}
+
+.intro {
+    margin: 50px 0px;
+}
+
+.header {
+    padding-top: 20px;
+    text-align: center;
+    color: rgb(172, 128, 255);
+    text-shadow: 2px 2px rgb(8, 0, 15);
+}
+
+.header h1,
+h2 {
+    font-size: 60px;
+}
+
+.header h2 {
+    font-weight: lighter;
+}
+
+
+.summary,
+.preamble,
+.main,
+.supporting {
+    position: initial;
+    top: 50%;
+    left: 50%;
+    margin: 50px auto;
+    padding: 10px;
+    padding-bottom: 20px;
+    text-align: center;
+    max-width: 70%;
+
+    font-size: 22px;
+    color: rgb(172, 128, 255);
+    background-color: rgba(0, 0, 0, 0.801);
+    border-radius: 15px;
+    transition: 10ms;
+    cursor: context-menu;
+}
+
+.explanation,
+.participation,
+.benefits,
+.requirements {
+    margin-bottom: 50px;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0px;
+    left: -22vw;
+    height: 100vh;
+    width: 24vw;
+
+    text-align: center;
+    transition: 0.5s linear;
+
+    background-color: rgba(0, 0, 0, 0.801);
+    background-image: url("..//img/seta-direita.png");
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-position-x: 99%;
+    background-size: 30px;
+}
+
+.sidebar:hover {
+    left: 0px;
+    background-image: url("..//img/seta-esquerda.png");
+}
+
+
+
+
+.sidebar h3 {
+    color: rgb(172, 128, 255);
+    text-shadow: 2px 2px rgb(8, 0, 15);
+}
+
+.sidebar li {
+    color: rgb(172, 128, 255);
+    text-shadow: 2px 2px rgb(8, 0, 15);
+}
+
+ul {
+    list-style: none;
+}
+
+.wrapper {
+    height: 80%;
+    padding-top: 0%;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-content: space-around;
+}
+
+.footer {
+    font-size: 40px;
+}
+
+.viewall {
+    display: inline-block;
+    font-size: 20px;
+}
+
+.previous,
+.next {
+    width: 48%;
+    font-size: 20px;
+    float: right;
+    margin: 10px 0px;
+}
+
+.wrapper h3 {
+    margin: 10px 10px;
+    font-size: 30px;
+}
+
+.design-selection ul li {
+    font-size: 20px;
+    margin: 10px 0px;
+}
+
+.design-selection a {
+    color: rgb(147, 131, 238);
+    text-shadow: 2px 2px rgb(8, 0, 15);
+}
+
+.design-selection a:hover {
+    color: rgb(61, 30, 236);
+}
+
+.design-resources ul li {
+    font-size: 20px;
+    margin: 10px 0px;
+}
+
+.design-resources a {
+    color: rgb(147, 131, 238);
+    text-shadow: 2px 2px rgb(8, 0, 15);
+}
+
+.design-resources a:hover {
+    color: rgb(61, 30, 236);
+    text-shadow: 2px 2px rgb(8, 0, 15);
+}
+
+.design-archives a {
+    color: rgb(147, 131, 238);
+    text-shadow: 2px 2px rgb(8, 0, 15);
+}
+
+.design-archives a:hover {
+    color: rgb(61, 30, 236);
+}
+
+acronym {
+    text-decoration: none;
+    color:rgb(147, 131, 238);
+}
